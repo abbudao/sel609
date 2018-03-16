@@ -1,0 +1,14 @@
+\documentclass[11pt,a4paper]{memoir}
+\usepackage{MyMacros}
+\usepackage{DocumentStyle}
+\begin{document}
+\begin{KeepFromToc}
+  \tableofcontents
+\end{KeepFromToc}
+\newpage
+\include{./Chapters/preface}
+\include{./Chapters/AmpOp}
+
+\bibliographystyle{abbrv}
+\bibliography{refs}
+\end{document}
